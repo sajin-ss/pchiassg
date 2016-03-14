@@ -1,13 +1,5 @@
 # pchiAssignment
 ###Usages :
-- ./p2p help
-- ./p2p send hostname port
-- ./p2p receive hostname port
+- java WriteServer   (in terminal to receive data) [data received when Enter pressed on server terminal]
+- java WriteServer 1 (in another terminal to send data) [data send to client terminal on press of Enter key]
 
-###Example : 
-- ./p2p receive 127.0.0.1 8333
-- ./p2p send 127.0.0.1 8333
-
-###To send files, do the following: **
-- ./p2p receive 127.0.0.1 8333 > outFile
-- ./p2p send 127.0.0.1 8333 < inFile
